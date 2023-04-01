@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Carousel Image</title>
+</head>
+<body>
+    
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="https://images.unsplash.com/photo-1526504957409-7e24b7d5db13?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1256&q=80" style="width:100%;height: 80vh;">
+          <div class="text">After a cloudy day with plenty of rain, the sun dropped below the clouds and lit up the sky in an awesome orange vibrancy.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="https://images.unsplash.com/photo-1533742195466-77168cab9539?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"style="width:100%;height: 80vh;">
+          <div class="text">I was taking photos of a wonderful Summer sunset at Mudeford, Dorset, UK, when a number of other photographers, with tripods and all their kit, promptly and rudely, just stood in front of me. Rather than getting annoyed, I used the opportunity to take a candid shot of the photographer taking a photograph"</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="https://images.unsplash.com/photo-1525638293492-d0b465b5f77e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1786&q=80" style="width:100%;height: 80vh;">
+          <div class="text">Allianz Arena - "Mia San Mia"</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+          
+        <div id="autobtncont">
+          <button onclick="showSlidesAutomatic()" >Slide Show</button>
+        </div>
+
+        
+
+
+    <script src="script.js"></script>
+</body>
+</html>
